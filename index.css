@@ -15,6 +15,9 @@ h1{
 
 	background-color: rgb(45,95,80);
 
+	border-bottom-color: rgb(0,0,0);
+	border-bottom-style: solid;
+
 	padding: 50px;
 	margin: 0px;
 
@@ -125,6 +128,7 @@ td{
 	border-color: black;
 	border-radius: 5px;
 	border-style: solid;
+	border-top-style: none;
 
 }
 
