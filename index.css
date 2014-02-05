@@ -117,7 +117,7 @@ table{
 	font-size: 40px;
 	color: white;
 
-	background-color: rgba(25,75,50,255);
+	background-color: rgb(25,75,50);
 	box-shadow: 0px 5px 10px rgb(50,50,50);
 	width: 100%;
 	
@@ -127,7 +127,6 @@ table{
 td{
 	color: white;
 	text-align: center;
-	font-variant: uppercase;
 
 	width: 33%;
 	
@@ -152,15 +151,6 @@ a{
 
 	padding-bottom: 20px;
 	padding-top: 20px;
-}
-a:link{
-
-}
-a:active{
-
-}
-a:visited{
-
 }
 a:hover{
 	color: rgb(100,150,125);
