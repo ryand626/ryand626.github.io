@@ -14,6 +14,7 @@ h1{
 	font-variant: small-caps;
 
 	background-color: rgb(45,95,80);
+	text-shadow:2px 2px 5px rgb(10,20,15);
 
 	padding: 50px;
 	margin: 0px;
@@ -23,9 +24,11 @@ h1{
 h2{
 	font-size: 48px;
 	font-variant: small-caps;
-	background-color: rgba(75,125,100,1);
 	color: white;
 	
+	background-color: rgba(75,125,100,1);
+	text-shadow:2px 2px 2px rgb(10,20,15);
+
 	margin: 0px;
 	margin-bottom: 0px;
 	margin-top: 20px;
@@ -33,13 +36,13 @@ h2{
 
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
-
-
 }
 
 h3{
 	font-size: 40px;
 	font-variant:  small-caps;
+
+	text-shadow:1px 1px 1px rgb(110,120,115);
 
 	margin: 10px;
 	margin-left: 20px;
@@ -97,7 +100,7 @@ dd{
 	padding: 0px;
 	padding-bottom: 10px;
 
-	box-shadow: 10px 10px 10px rgb(50,50,50);
+	box-shadow: 10px 10px 10px rgb(20,20,20);
 	border-radius: 3px;
 }
 
@@ -105,6 +108,7 @@ dd{
 	text-align: center;
 	font-size: 10px;
 	vertical-align: middle;
+
 	background-color: rgb(100,105,100);
 
 	padding: 20px;
@@ -129,7 +133,6 @@ td{
 	text-align: center;
 
 	width: 33%;
-	
 
 	border-color: black;
 	border-radius: 5px;
@@ -149,13 +152,15 @@ a{
 	font-variant: small-caps;
 	font-size: 60px;
 
+	text-shadow:2px 2px 4px rgb(10,20,15);
+
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
 a:hover{
 	color: rgb(100,150,125);
 
-	background-color: white;
+	background-color: rgb(200,255,225);
 }
 
 img{
