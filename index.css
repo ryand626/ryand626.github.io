@@ -42,8 +42,6 @@ h3{
 	font-size: 40px;
 	font-variant:  small-caps;
 
-	text-shadow:1px 1px 1px rgb(110,120,115);
-
 	margin: 10px;
 	margin-left: 20px;
 }
@@ -134,9 +132,11 @@ td{
 
 	width: 33%;
 
-	border-color: black;
+
+	border-color: rgb(75,125,100);
+	border-width: 15px;
 	border-radius: 5px;
-	border-style: solid;
+	border-style: double;
 
 }
 
