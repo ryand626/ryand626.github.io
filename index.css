@@ -15,9 +15,6 @@ h1{
 
 	background-color: rgb(45,95,80);
 
-	border-bottom-color: rgb(0,0,0);
-	border-bottom-style: solid;
-
 	padding: 50px;
 	margin: 0px;
 
@@ -104,6 +101,16 @@ dd{
 	border-radius: 3px;
 }
 
+#smallbox{
+	text-align: center;
+	font-size: 10px;
+	vertical-align: middle;
+	background-color: rgb(100,105,100);
+
+	padding: 20px;
+
+}
+
 table{
 
 	font-variant: small-caps;
@@ -128,7 +135,6 @@ td{
 	border-color: black;
 	border-radius: 5px;
 	border-style: solid;
-	border-top-style: none;
 
 }
 
@@ -162,6 +168,8 @@ img{
     
     width: 100%; 
     height: 100%; 
+
+   	padding-bottom: 40px;
 
     background-color: rgb(10,20,15);
 }
