@@ -1,0 +1,132 @@
+html{
+	font-family: "Calibri";
+	background-color: darkgrey;
+}
+
+body{
+	margin: 0px;
+	background-color: transparent;
+}
+
+h1{
+	font-size: 75px;
+	text-align: center;
+	font-variant: small-caps;
+
+	background-color: seagreen;
+
+	padding: 20px;
+
+	margin: 0px;
+
+	margin-left: 5%;
+	margin-right: 5%;
+
+	border-style: solid;
+	border-color: green;
+	border-radius: 3px;
+	border-width: 3px;
+}
+
+h2{
+	
+	font-size: 48px;
+	font-variant: small-caps;
+	background-color: black;
+	color: grey;
+	
+	margin: 40px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	padding-left: 20px;
+
+	border-style: none;
+	border-radius: 2px;
+	border-color: seagreen;
+}
+
+h3{
+	font-size: 30px;
+	font-variant:  small-caps;
+
+	background-color: transparent;
+
+	margin: 10px;
+	margin-left: 20px;
+}
+
+
+p{
+	font-size: 40px;
+	color: black;
+
+	background-color: transparent;
+
+
+}
+
+li{
+	font-size: 36px;
+	color: black;
+
+	background-color: transparent;
+
+	margin-left: 30px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+div{
+	background-color: white;
+	box-shadow: 10px 10px 10px grey;
+
+	margin: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding: 20px;
+
+	border-radius: 3px;
+
+}
+
+table{
+
+	font-variant: small-caps;
+	font-size: 40px;
+	color: white;
+
+	background-color: seagreen;
+	width: 90%;
+
+	margin-left: 5%;
+	margin-right: 5%;
+
+	border-collapse: collapse;
+
+
+}
+
+a{
+
+	text-decoration: none;
+	text-align: center;
+	font-color: white;
+	font-variant: small-caps;
+	font-size: 60px;
+}
+
+td{
+	color: white;
+	text-align: center;
+	
+	width: 50%;
+	
+	font-variant: uppercase;
+
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	
+	padding: 15px;
+
+}
