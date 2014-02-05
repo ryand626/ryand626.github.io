@@ -107,34 +107,23 @@ td{
 
 }
 
-
-a:link{
+a{
+	color: black;
 	text-decoration: none;
 	text-align: center;
-	font-color: white;
 	font-variant: small-caps;
 	font-size: 60px;
+}
+a:link{
+
 }
 a:active{
-	text-decoration: none;
-	text-align: center;
-	font-color: white;
-	font-variant: small-caps;
-	font-size: 60px;
+
 }
 a:visited{
-	text-decoration: none;
-	text-align: center;
-	font-color: white;
-	font-variant: small-caps;
-	font-size: 60px;
+
 }
 a:hover{
-	text-decoration: none;
-	text-align: center;
-	font-color: white;
-	font-variant: small-caps;
-	font-size: 60px;
 
-	background-color: green;
 }
+
