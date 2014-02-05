@@ -13,8 +13,7 @@ Dan helped me with Git stuff...or tried at least, I ended up using the GUI
 because the command line was being buggy
 
 ===============================Internet that helped============================
-http://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-
-in-the-background-with-css-only 
+http://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only 
 
 this was for image CSS help
 
