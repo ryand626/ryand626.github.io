@@ -1,6 +1,6 @@
 html{
 	font-family: "Calibri";
-	background-color: darkgrey;
+	background-color: rgb(200,205,200);
 }
 
 body{
@@ -9,14 +9,14 @@ body{
 }
 
 h1{
+	color: white;
 	font-size: 72px;
 	text-align: center;
 	font-variant: small-caps;
 
 	background-color: seagreen;
 
-	padding: 20px;
-
+	padding: 50px;
 	margin: 0px;
 
 }
@@ -25,17 +25,21 @@ h2{
 	
 	font-size: 48px;
 	font-variant: small-caps;
-	background-color: black;
-	color: grey;
+	background-color: rgba(75,125,100,1);
+	color: white;
 	
 	margin: 40px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	margin-top: 20px;
 	padding-left: 20px;
 
 	border-style: none;
+	border-bottom-style: none;
 	border-radius: 2px;
-	border-color: seagreen;
+	border-color: black;
+
+
+	box-shadow: 10px 15px 10px grey;
 }
 
 h3{
@@ -85,15 +89,17 @@ dd{
 }
 
 div{
-	background-color: white;
+	background-color: rgb(250,255,250);
 	box-shadow: 10px 10px 10px grey;
 
-	margin: 0px;
+	margin-top: 0px;
 	margin-left: 40px;
 	margin-right: 40px;
+	margin-bottom: 20px;
 	padding: 20px;
 
-	border-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
 }
 
 table{
@@ -102,28 +108,29 @@ table{
 	font-size: 40px;
 	color: white;
 
-	background-color: seagreen;
-	box-shadow: 0px 10px 10px grey;
+	background-color: rgba(25,75,50,255);
+	box-shadow: 0px 5px 10px grey;
 	width: 100%;
-	border-bottom-right-radius: 3px;
-	border-bottom-left-radius: 3px;
-
+	
+	border-collapse: collapse;
 
 }
 td{
 	color: white;
 	text-align: center;
-	
-	width: 33%;
-	
 	font-variant: uppercase;
-	
-	padding: 15px;
+
+	width: 33%;
+	padding: 10px;
+
+	border-color: black;
+	border-radius: 5px;
+	border-style: solid;
 
 }
 
 a{
-	color: black;
+	color: white;
 	text-decoration: none;
 	text-align: center;
 	font-variant: small-caps;
