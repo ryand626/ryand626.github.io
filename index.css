@@ -19,11 +19,9 @@ h1{
 
 	margin: 0px;
 
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 20px;
+	margin-right: 20px;
 
-	border-style: solid;
-	border-color: green;
 	border-radius: 3px;
 	border-width: 3px;
 }
@@ -86,7 +84,6 @@ div{
 	padding: 20px;
 
 	border-radius: 3px;
-
 }
 
 table{
@@ -96,25 +93,15 @@ table{
 	color: white;
 
 	background-color: seagreen;
-	width: 90%;
+	width: 98%;
 
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 20px;
+	margin-right: 20px;
 
-	border-collapse: collapse;
+	border-radius: 3px;
 
 
 }
-
-a{
-
-	text-decoration: none;
-	text-align: center;
-	font-color: white;
-	font-variant: small-caps;
-	font-size: 60px;
-}
-
 td{
 	color: white;
 	text-align: center;
@@ -129,4 +116,34 @@ td{
 	
 	padding: 15px;
 
+}
+
+
+a:link{
+	text-decoration: none;
+	text-align: center;
+	font-color: white;
+	font-variant: small-caps;
+	font-size: 60px;
+}
+a:active{
+	text-decoration: none;
+	text-align: center;
+	font-color: white;
+	font-variant: small-caps;
+	font-size: 60px;
+}
+a:visited{
+	text-decoration: none;
+	text-align: center;
+	font-color: white;
+	font-variant: small-caps;
+	font-size: 60px;
+}
+a:hover{
+	text-decoration: none;
+	text-align: center;
+	font-color: white;
+	font-variant: small-caps;
+	font-size: 60px;
 }
