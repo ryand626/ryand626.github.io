@@ -25,7 +25,7 @@ h2{
 	font-size: 48px;
 	font-variant: small-caps;
 	color: white;
-	
+
 	background-color: rgba(75,125,100,1);
 	text-shadow:2px 2px 2px rgb(10,20,15);
 
@@ -92,7 +92,7 @@ dd{
 
 .textbox{
 	background-color: rgb(250,255,250);
-	
+
 	margin-top: 0px;
 	margin-left: 40px;
 	margin-right: 40px;
@@ -124,7 +124,7 @@ table{
 	background-color: rgb(25,75,50);
 	box-shadow: 0px 5px 10px rgb(50,50,50);
 	width: 100%;
-	
+
 	border-collapse: collapse;
 
 }
