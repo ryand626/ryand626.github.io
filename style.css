@@ -1,5 +1,5 @@
 /* 
- * index.css
+ * style.css
  * CSS file for Ryan Dougherty's Website
 */
 
@@ -62,7 +62,6 @@ p{
 	color: black;
 
 	padding: 20px;
-
 }
 
 /*Lists*/
@@ -153,10 +152,17 @@ td{
 
 /*Links*/
 a{
+	text-decoration: none;
+	color: white;
+
+	text-shadow:1px 1px 2px rgb(10,20,15);
+	
+	background: linear-gradient(left, black, green);
+}
+.nav{
 	display: block;
 
 	color: white;
-	text-decoration: none;
 	text-align: center;
 	font-variant: small-caps;
 	font-size: 32px;
@@ -165,9 +171,7 @@ a{
 
 	background-color: rgb(10,75,50);
 }
-a:hover{
-	/*color: rgb(0,50,25);*/
-	/*text-shadow:2px 2px 4px rgb(110,120,115);*/
+.nav:hover{
 	font-size: 32px;
 	
 	background-color: rgba(10,75,50,.9);
@@ -177,6 +181,24 @@ a:hover{
 	box-shadow: 0px 5px 10px rgb(20,20,20);
 
 	border-width: 0px;
+}
+button{
+	font-size: 50px;
+	text-decoration: none;
+	text-align: center;
+
+	padding: 20px;
+	margin: 5px;
+
+
+	/*border-width: 5px;*/
+	border-radius: 20px;
+	border-style: none;
+	border-color: rgb(0,255,100);
+	border-width: 5px;
+	/*,*/
+	background: linear-gradient(rgb(0,200,100),rgb(0,200,100),rgb(0,150,50));
+	
 }
 
 /*Images*/
