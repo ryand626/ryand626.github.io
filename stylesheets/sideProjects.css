@@ -1,0 +1,17 @@
+/* line 1, ../sass/sideProjects.scss */
+.slide1 {
+  background-image: url("../images/good.png");
+  background-size: cover;
+}
+
+/* line 5, ../sass/sideProjects.scss */
+.slide2 {
+  background-image: url("../images/swarmbot.jpg");
+  background-size: cover;
+}
+
+/* line 10, ../sass/sideProjects.scss */
+.slide3 {
+  background-image: url("../images/slider4.jpg");
+  background-size: cover;
+}
