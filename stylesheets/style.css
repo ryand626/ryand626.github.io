@@ -61,18 +61,22 @@ p {
 .my-orbit-div h3 {
   color: white;
 }
+/* line 60, ../sass/style.scss */
+.my-orbit-div h4 {
+  color: white;
+}
 
-/* line 69, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 .orbit-container {
   background-color: transparent;
 }
 
-/* line 74, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 #footer {
   background-color: #333333;
   color: #c8c8c8;
 }
-/* line 79, ../sass/style.scss */
+/* line 82, ../sass/style.scss */
 #footer #footerContent {
   height: 100px;
   text-align: center;
@@ -80,7 +84,7 @@ p {
   padding: 25px;
   background-color: transparent;
 }
-/* line 88, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 #footer br {
   margin: 20px;
 }
