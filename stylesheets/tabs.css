@@ -1,21 +1,23 @@
-/* line 1, ../sass/tabs.scss */
+/* line 8, ../sass/tabs.scss */
 .tabs {
+  height: 52px;
+  background: #333333;
   *zoom: 1;
   margin-bottom: 0 !important;
 }
 
-/* line 4, ../sass/tabs.scss */
+/* line 14, ../sass/tabs.scss */
 .tabs:before, .tabs:after {
   content: " ";
   display: table;
 }
 
-/* line 7, ../sass/tabs.scss */
+/* line 18, ../sass/tabs.scss */
 .tabs:after {
   clear: both;
 }
 
-/* line 9, ../sass/tabs.scss */
+/* line 21, ../sass/tabs.scss */
 .tabs dd {
   position: relative;
   margin-bottom: 0 !important;
@@ -23,11 +25,11 @@
   float: left;
 }
 
-/* line 14, ../sass/tabs.scss */
+/* line 27, ../sass/tabs.scss */
 .tabs dd > a {
   display: block;
-  background: #efefef;
-  color: #222222;
+  background: transparent;
+  color: white;
   padding-top: 0.88889rem;
   padding-right: 1.77778rem;
   padding-bottom: 0.94444rem;
@@ -36,17 +38,17 @@
   font-size: 0.88889rem;
 }
 
-/* line 24, ../sass/tabs.scss */
+/* line 38, ../sass/tabs.scss */
 .tabs dd > a:hover {
-  background: #e2e2e2;
+  background: #4b4b4b;
 }
 
-/* line 26, ../sass/tabs.scss */
+/* line 41, ../sass/tabs.scss */
 .tabs dd.active a {
-  background: white;
+  background: #282828;
 }
 
-/* line 28, ../sass/tabs.scss */
+/* line 44, ../sass/tabs.scss */
 .tabs.radius dd:first-child a {
   -moz-border-radius-bottomleft: 3px;
   -moz-border-radius-topleft: 3px;
@@ -56,7 +58,7 @@
   border-top-left-radius: 3px;
 }
 
-/* line 35, ../sass/tabs.scss */
+/* line 52, ../sass/tabs.scss */
 .tabs.radius dd:last-child a {
   -moz-border-radius-topright: 3px;
   -moz-border-radius-bottomright: 3px;
@@ -66,7 +68,7 @@
   border-bottom-right-radius: 3px;
 }
 
-/* line 42, ../sass/tabs.scss */
+/* line 60, ../sass/tabs.scss */
 .tabs.vertical dd {
   position: inherit;
   float: none;
@@ -74,59 +76,59 @@
   top: auto;
 }
 
-/* line 48, ../sass/tabs.scss */
+/* line 67, ../sass/tabs.scss */
 .tabs-content {
   *zoom: 1;
   margin-bottom: 1.33333rem;
 }
 
-/* line 51, ../sass/tabs.scss */
+/* line 71, ../sass/tabs.scss */
 .tabs-content:before, .tabs-content:after {
   content: " ";
   display: table;
 }
 
-/* line 54, ../sass/tabs.scss */
+/* line 75, ../sass/tabs.scss */
 .tabs-content:after {
   clear: both;
 }
 
-/* line 56, ../sass/tabs.scss */
+/* line 78, ../sass/tabs.scss */
 .tabs-content > .content {
   display: none;
   float: left;
   /*padding: 0.83333rem 0;*/
 }
 
-/* line 60, ../sass/tabs.scss */
+/* line 82, ../sass/tabs.scss */
 .tabs-content > .content.active {
   display: block;
 }
 
-/* line 62, ../sass/tabs.scss */
+/* line 84, ../sass/tabs.scss */
 .tabs-content > .content.contained {
   padding: 0.83333rem;
 }
 
-/* line 64, ../sass/tabs.scss */
+/* line 88, ../sass/tabs.scss */
 .tabs-content.vertical {
   display: block;
 }
 
-/* line 66, ../sass/tabs.scss */
+/* line 91, ../sass/tabs.scss */
 .tabs-content.vertical > .content {
   padding: 0 0.83333rem;
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 70, ../sass/tabs.scss */
+  /* line 96, ../sass/tabs.scss */
   .tabs.vertical {
     width: 20%;
     float: left;
     margin-bottom: 1.25rem;
   }
 
-  /* line 74, ../sass/tabs.scss */
+  /* line 101, ../sass/tabs.scss */
   .tabs-content.vertical {
     width: 80%;
     float: left;

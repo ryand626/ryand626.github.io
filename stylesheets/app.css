@@ -1,19 +1,20 @@
 /*
-Syntax error: Undefined variable: "$body-font-family".
-        on line 1335 of c:/Users/Ryan/Documents/GitHub/ryand626.github.io/sass/_settings.scss
-        from line 2 of c:/Users/Ryan/Documents/GitHub/ryand626.github.io/sass/app.scss
+Syntax error: File to import not found or unreadable: foundation/components/tabs.
+              Load paths:
+                c:/Users/Ryan/Documents/GitHub/ryand626.github.io/sass
+                e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.5/frameworks/blueprint/stylesheets
+                e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.5/frameworks/compass/stylesheets
+                e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.3.2/scss
+                Compass::SpriteImporter
+        on line 10 of c:/Users/Ryan/Documents/GitHub/ryand626.github.io/sass/app.scss
 
 Backtrace:
-c:/Users/Ryan/Documents/GitHub/ryand626.github.io/sass/_settings.scss:1335
-c:/Users/Ryan/Documents/GitHub/ryand626.github.io/sass/app.scss:2
-e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/script/variable.rb:49:in `_perform'
-e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/script/node.rb:40:in `perform'
-e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:327:in `visit_variable'
-e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `block in visit_import'
-e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `map'
-e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
+c:/Users/Ryan/Documents/GitHub/ryand626.github.io/sass/app.scss:10
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/import_node.rb:67:in `rescue in import'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/import_node.rb:45:in `import'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/import_node.rb:28:in `imported_file'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/import_node.rb:37:in `css_import?'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
 e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
 e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
 e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -42,7 +43,22 @@ e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.5/lib/compass/
 e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.5/lib/compass/compiler.rb:126:in `timed'
 e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.5/lib/compass/compiler.rb:100:in `run'
 e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.5/lib/compass/commands/watch_project.rb:147:in `recompile'
-e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.5/lib/compass/commands/watch_project.rb:68:in `perform'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
+e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.5/lib/compass/commands/watch_project.rb:87:in `perform'
 e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.5/lib/compass/commands/base.rb:18:in `execute'
 e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.5/lib/compass/commands/project_base.rb:19:in `execute'
 e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.5/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
@@ -56,4 +72,4 @@ e:/RailsInstaller/Ruby1.9.3/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$body-font-family\".\A         on line 1335 of c:/Users/Ryan/Documents/GitHub/ryand626.github.io/sass/_settings.scss\A         from line 2 of c:/Users/Ryan/Documents/GitHub/ryand626.github.io/sass/app.scss"; }
+  content: "Syntax error: File to import not found or unreadable: foundation/components/tabs.\A               Load paths:\A                 c:/Users/Ryan/Documents/GitHub/ryand626.github.io/sass\A                 e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.5/frameworks/blueprint/stylesheets\A                 e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.5/frameworks/compass/stylesheets\A                 e:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.3.2/scss\A                 Compass::SpriteImporter\A         on line 10 of c:/Users/Ryan/Documents/GitHub/ryand626.github.io/sass/app.scss"; }
