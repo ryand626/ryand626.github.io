@@ -6,10 +6,10 @@
 /* line 7, ../sass/resume.scss */
 html {
   font-family: "Calibri";
-  background-color: #c8cdc8;
+  background-image: url("../images/binding_dark.png");
 }
 
-/* line 12, ../sass/resume.scss */
+/* line 13, ../sass/resume.scss */
 body {
   margin: 0px;
   font-family: 'Calibri';
@@ -17,13 +17,14 @@ body {
 }
 
 /*Headers*/
-/* line 19, ../sass/resume.scss */
+/* line 20, ../sass/resume.scss */
 .resume {
+  background-color: transparent;
   /*Paragraph*/
   /*Lists*/
   /*Custom Dividers*/
 }
-/* line 20, ../sass/resume.scss */
+/* line 22, ../sass/resume.scss */
 .resume h1 {
   color: white;
   font-size: 72px;
@@ -34,7 +35,7 @@ body {
   padding: 16px;
   margin: 0px;
 }
-/* line 32, ../sass/resume.scss */
+/* line 34, ../sass/resume.scss */
 .resume h2 {
   font-size: 48px;
   font-variant: small-caps;
@@ -48,26 +49,26 @@ body {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
-/* line 48, ../sass/resume.scss */
+/* line 50, ../sass/resume.scss */
 .resume h3 {
   font-size: 40px;
   font-variant: small-caps;
   margin: 10px;
   margin-left: 20px;
 }
-/* line 55, ../sass/resume.scss */
+/* line 57, ../sass/resume.scss */
 .resume h4 {
   color: #0a4b32;
   font-size: 40px;
   padding: 20px;
 }
-/* line 63, ../sass/resume.scss */
+/* line 65, ../sass/resume.scss */
 .resume p {
   font-size: 40px;
   color: black;
   padding: 20px;
 }
-/* line 71, ../sass/resume.scss */
+/* line 73, ../sass/resume.scss */
 .resume li {
   font-size: 24px;
   color: black;
@@ -77,24 +78,24 @@ body {
   padding-bottom: 10px;
   list-style: square;
 }
-/* line 82, ../sass/resume.scss */
+/* line 84, ../sass/resume.scss */
 .resume dl {
   margin: 0px;
   padding: 0px;
 }
-/* line 86, ../sass/resume.scss */
+/* line 88, ../sass/resume.scss */
 .resume dt {
   font-size: 32px;
   padding-left: 40px;
   padding-right: 20px;
   list-style: square;
 }
-/* line 94, ../sass/resume.scss */
+/* line 96, ../sass/resume.scss */
 .resume dd {
   font-size: 24px;
   padding-left: 20px;
 }
-/* line 100, ../sass/resume.scss */
+/* line 102, ../sass/resume.scss */
 .resume .textbox {
   background-color: #fafffa;
   margin-top: 0px;
@@ -106,7 +107,7 @@ body {
   box-shadow: 10px 10px 10px #141414;
   border-radius: 3px;
 }
-/* line 113, ../sass/resume.scss */
+/* line 115, ../sass/resume.scss */
 .resume .smallbox {
   text-align: center;
   font-size: 10px;

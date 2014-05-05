@@ -2,7 +2,9 @@
     <head>
         <title>Ryan Dougherty's Website</title>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-       
+        <!-- <link rel = "stylesheet" type="text/css" href="stylesheets/foundation.css"> -->
+        <link rel = "stylesheet" type="text/css" href="stylesheets/foundation.css"/>
+        <link rel = "stylesheet" type="text/css" href="stylesheets/tabs.css"/>
         <link rel = "stylesheet" type="text/css" href="stylesheets/app.css"/>
         <link rel = "stylesheet" type="text/css" href="stylesheets/style.css"/>
         <link rel = "stylesheet" type="text/css" href="stylesheets/sideProjects.css"/>
@@ -14,7 +16,7 @@
             </style>
         <![endif]-->
 
-        <link rel = "icon" type="image/icon" href = "../images/icon.jpeg"/>
+        <link rel = "icon" type="image/icon" href = "images/icon.jpeg"/>
         
         <script src = "js/vendor/jquery.js"></script>
 
@@ -22,9 +24,11 @@
         <script src = "js/Unity/UnityPlayer2.js"></script>
         <script src = "js/Unity/player.js"></script>
 
+        <script src = "js/vendor/modernizr.js"></script>
         <script src = "js/foundation/foundation.js"></script>
         <script src = "js/foundation/foundation.topbar.js"></script>
-        <script src = "js/foundation/foundation.orbit.js"></script>     
+        <script src = "js/foundation/foundation.orbit.js"></script>   
+        <script src = "js/foundation/foundation.tab.js"></script>   
     </head>
 
     <body>
@@ -81,27 +85,62 @@
                         </li> -->
                     </ul>                    
                     
-                    <div id = "playa">
-                        
-                        <p>Cubes with ears presents: Projectile Motion</p>
-                        <div class="content">
-                            <div id="unityPlayer">
-                                <div class="missing">
-                                    <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
-                                        <img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
-                                    </a>
-                                </div>
-                                <div class="broken">
-                                    <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now! Restart your browser after install.">
-                                        <img alt="Unity Web Player. Install now! Restart your browser after install." src="http://webplayer.unity3d.com/installation/getunityrestart.png" width="193" height="63" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="footer">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
-                    </div>
+                    
+                        <div id = "playa">
+                            <p>Educational Game</p>
 
-                    <p>Swarmbot Video coming soon!</p>
+                            <dl class="tabs" data-tab>
+                              <dd class="active"><a href="#Info">Info</a></dd>
+                              <dd><a href="#Projectile">Projectile Motion</a></dd>
+                              <dd><a href="#Planned">Coming Soon!</a></dd>
+                        
+                            </dl>
+                            
+                            <div class="tabs-content">
+                              <div class="content active" id="Info">
+                                <p>
+                                    Information
+                                    <br>
+                                    Our goal is to create an educational game that plays more like a traditional game
+                                </p>
+                              </div>
+                              
+                              <div class="content" id="Projectile">
+                                <div id = "playa">
+                                    <p>Cubes with ears presents: Projectile Motion</p>
+                                    <div class="Unitycontent">
+                                        <div id="unityPlayer">
+                                            <div class="missing">
+                                                <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+                                                    <img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+                                                </a>
+                                            </div>
+                                            <div class="broken">
+                                                <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now! Restart your browser after install.">
+                                                    <img alt="Unity Web Player. Install now! Restart your browser after install." src="http://webplayer.unity3d.com/installation/getunityrestart.png" width="193" height="63" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="footer">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+                                </div>
+                              </div>
+                              <div class="content" id="Planned">
+                                <p>Genetics and Stoichiometry</p>
+                              </div>
+                            </div>
+                       
+
+                        </div>
+                    
+
+                    <p>Swarmbot
+
+                        <A HREF="https://www.youtube.com/watch?v=OeqWD4B9gi8&feature=em-upload_owner">Demo Video</A>
+                    </p>
+                   
+
+                   
 
                     <p><a href="http://tuftsdev.github.io/comp20-s2014-team6/html/">MicroManage</a></p>
                 </div>
