@@ -1,0 +1,124 @@
+/* 
+ * style.css
+ * CSS file for Ryan Dougherty's Website
+*/
+
+/*Body*/
+html{
+	font-family: "Calibri";
+	background-color: rgb(200,205,200);
+}
+
+body{
+	margin: 0px;
+	font-family: 'Calibri';
+    background-image:url('../images/binding_dark.png');
+}
+
+/*Headers*/
+.resume{
+h1{
+	color: white;
+	font-size: 72px;
+	text-align: center;
+	font-variant: small-caps;
+
+	background-color: rgb(10,75,50);
+	text-shadow:2px 2px 5px rgb(10,20,15);
+
+	padding: 16px;
+	margin: 0px;
+}
+h2{
+	font-size: 48px;
+	font-variant: small-caps;
+	color: rgb(255,255,255);
+
+	background-color: rgb(60,100,85);
+	text-shadow:2px 2px 2px rgb(10,20,15);
+
+	margin: 0px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	padding-left: 20px;
+
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+h3{
+	font-size: 40px;
+	font-variant:  small-caps;
+
+	margin: 10px;
+	margin-left: 20px;
+}
+h4{
+	color: rgb(10,75,50);
+	font-size: 40px;
+
+	padding: 20px;
+}
+
+/*Paragraph*/
+p{
+	font-size: 40px;
+	color: black;
+
+	padding: 20px;
+}
+
+/*Lists*/
+li{
+	font-size: 24px;
+	color: black;
+
+	margin-left: 30px;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+
+	list-style: square;
+}
+dl{
+	margin: 0px;
+	padding: 0px;
+}
+dt{
+	font-size: 32px;
+
+	padding-left: 40px;
+	padding-right: 20px;
+
+	list-style: square;
+}
+dd{
+	font-size:  24px;
+	padding-left: 20px;
+}
+
+/*Custom Dividers*/
+.textbox{
+	background-color: rgb(250,255,250);
+
+	margin-top: 0px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	padding: 0px;
+	padding-bottom: 10px;
+
+	box-shadow: 10px 10px 10px rgb(20,20,20);
+	border-radius: 3px;
+}
+.smallbox{
+	text-align: center;
+	font-size: 10px;
+	vertical-align: middle;
+
+	background-color: rgb(100,105,100);
+
+	padding: 20px;
+	height: 100%;
+}
+}
+

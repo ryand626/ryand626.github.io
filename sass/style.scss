@@ -1,0 +1,91 @@
+// Style for Ryan Dougherty's Website
+
+// //sticky footer
+//@import "compass/reset.scss";
+//  @import "compass/layout.scss";
+ 
+// @include sticky-footer(72px, "#layout", "#layout_footer", "#footer");
+
+.slide1{
+    background-image: url('../images/preslawn.jpg');
+    background-size: cover;
+}
+.slide2{
+    background-image: url('../images/good.png');
+    background-size: cover;
+    //background-size: 100% 100%;
+}
+.slide3{
+    background-image: url('../images/kungfu.jpg');
+    background-size: cover;
+}
+
+.back {
+    color: white;
+
+    height: 100%;
+    width: 100%;
+    //background-size: 100% 100%;
+}
+
+.orbit-bullets {
+    display: table;
+    text-align: center; 
+}
+
+body{
+    font-family: 'Calibri';
+    background-image:url('../images/binding_dark.png');
+    height: 100%;
+}
+
+
+p{
+    background-color:white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.my-orbit-div{
+    height: 250px;
+    // overflow: hidden;
+
+    h2{
+        color: white;
+    }
+    h3{
+       color: white; 
+    }
+    color: white;
+    
+    margin: 40px;
+    padding: 20px;
+    border-radius: 5px;
+
+    background-color: rgba(0,0,0,.5);
+}
+
+.orbit-container{
+    background-color: transparent;
+}
+
+
+#footer {
+    background-color: rgb(51, 51, 51);
+
+    color: rgb(200, 200, 200);
+
+    #footerContent{
+        height: 100px;
+        text-align: center;
+        vertical-align: center;
+
+        //margin: 1px;
+        padding: 25px;
+        background-color: transparent;
+    }
+    br{
+        margin: 20px;
+    }
+}

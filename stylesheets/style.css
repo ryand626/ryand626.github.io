@@ -1,0 +1,86 @@
+/* line 9, ../sass/style.scss */
+.slide1 {
+  background-image: url("../images/preslawn.jpg");
+  background-size: cover;
+}
+
+/* line 13, ../sass/style.scss */
+.slide2 {
+  background-image: url("../images/good.png");
+  background-size: cover;
+}
+
+/* line 18, ../sass/style.scss */
+.slide3 {
+  background-image: url("../images/kungfu.jpg");
+  background-size: cover;
+}
+
+/* line 23, ../sass/style.scss */
+.back {
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 31, ../sass/style.scss */
+.orbit-bullets {
+  display: table;
+  text-align: center;
+}
+
+/* line 36, ../sass/style.scss */
+body {
+  font-family: 'Calibri';
+  background-image: url("../images/binding_dark.png");
+  height: 100%;
+}
+
+/* line 43, ../sass/style.scss */
+p {
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+/* line 50, ../sass/style.scss */
+.my-orbit-div {
+  height: 250px;
+  color: white;
+  margin: 40px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* line 54, ../sass/style.scss */
+.my-orbit-div h2 {
+  color: white;
+}
+/* line 57, ../sass/style.scss */
+.my-orbit-div h3 {
+  color: white;
+}
+
+/* line 69, ../sass/style.scss */
+.orbit-container {
+  background-color: transparent;
+}
+
+/* line 74, ../sass/style.scss */
+#footer {
+  background-color: #333333;
+  color: #c8c8c8;
+}
+/* line 79, ../sass/style.scss */
+#footer #footerContent {
+  height: 100px;
+  text-align: center;
+  vertical-align: center;
+  padding: 25px;
+  background-color: transparent;
+}
+/* line 88, ../sass/style.scss */
+#footer br {
+  margin: 20px;
+}
