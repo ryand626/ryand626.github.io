@@ -6,18 +6,18 @@ This website was originally created as an assignment for Web Programming (Comp 2
 
 This is a new page dedicated to projects that I've worked on recently
 
-### Educational Game
+##### Educational Game
 
 I have started to put up demos of the educational game I am working on
 
-### Swarm bot
+##### Swarm bot
 
 There is now a small presentation on my Junior Design swarmbot project
 
-### Micro Manage
+##### Micro Manage
 
 Web Programming final project
 
 ## Resume
 
-Self exploratory
+This part is largely untouched from the original assignment 
