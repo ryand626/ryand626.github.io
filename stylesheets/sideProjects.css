@@ -27,14 +27,19 @@
 .playa .orbit-container {
   background-color: #1e1e1e;
 }
+/* line 30, ../sass/sideProjects.scss */
+.playa ul {
+  padding-left: 10px;
+  list-style: none;
+}
 
-/* line 32, ../sass/sideProjects.scss */
+/* line 36, ../sass/sideProjects.scss */
 .imgDiv {
   display: block;
   margin: 0 auto;
 }
 
-/* line 36, ../sass/sideProjects.scss */
+/* line 40, ../sass/sideProjects.scss */
 #making-of {
   background-color: #1e1e1e;
 }
