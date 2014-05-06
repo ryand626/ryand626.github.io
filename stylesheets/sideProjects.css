@@ -15,3 +15,21 @@
   background-image: url("../images/slider4.jpg");
   background-size: cover;
 }
+
+/* line 15, ../sass/sideProjects.scss */
+.swarmbot-orbit {
+  height: 480px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 27, ../sass/sideProjects.scss */
+.playa .orbit-container {
+  background-color: #1e1e1e;
+}
+
+/* line 32, ../sass/sideProjects.scss */
+.imgDiv {
+  display: block;
+  margin: 0 auto;
+}
