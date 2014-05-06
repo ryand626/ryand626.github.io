@@ -1,30 +1,23 @@
-====================================Filename===================================
-ryand626.github.io
+# Ryan Dougherty's Website
 
-====================================Purpose====================================
-This is Ryan Dougherty's website for Tufts University course Comp 20: Web 
-Programming
+This website was originally created as an assignment for Web Programming (Comp 20 at Tufts University).  It has since received a major overhaul.  
 
-===================================Time spent==================================
-a lot...like 8 hrs on and off...I'm having a lot of fun with this
+## Side Projects
 
-===============================People who helped===============================
-Dan helped me with Git stuff...or tried at least, I ended up using the GUI 
-because the command line was being buggy
+This is a new page dedicated to projects that I've worked on recently
 
-Maya Saxena helped me with the redirect, and also helped me with text shadows
+### Educational Game
 
-===============================Internet that helped============================
-http://stackoverflow.com/questions/1150163/stretch-and-scale-a-css-image-in-the-background-with-css-only 
+I have started to put up demos of the educational game I am working on
 
-this was for image CSS help
+### Swarm bot
 
-========================Implemented (but subject to change)====================
-Bio
-Home
-Resume
+There is now a small presentation on my Junior Design swarmbot project
 
-===================================In progress=================================
-Formatting
+### Micro Manage
 
-===============================================================================
+Web Programming final project
+
+## Resume
+
+Self exploratory
