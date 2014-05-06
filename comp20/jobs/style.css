@@ -1,0 +1,11 @@
+p{
+    font-family: "Calibri";
+    font-size: 20px;
+
+    padding: 20px;
+    margin: 10px;
+
+    background-color: rgb(200,255,210);
+
+    border-radius: 4px;
+}

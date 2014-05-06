@@ -1,0 +1,6 @@
+#!/bin/ksh
+c=1
+while [[ $c -le 100000 ]]; do
+	curl --data "username='Ryan'&score=9001&grid=nope" http://pacific-badlands-6307.herokuapp.com/submit.json	
+        (( c++ ))
+done

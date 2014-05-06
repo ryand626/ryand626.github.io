@@ -1,0 +1,110 @@
+/*style.css for Comp 20 lab 7 by Ryan Dougherty*/
+
+
+body{
+    font-family: 'Calibri';
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(230,230,230);
+}
+
+h1{
+    font-size: 25px;
+    
+    width: 100%;
+
+    background-color: rgb(59,89,152);
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+h2{
+
+    max-width: 900px;
+    background-color: rgb(255,255,255);
+    color: rgb(10,10,10);
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 150px;
+    margin-right: 40px;
+
+}
+h3{
+    max-width: 920px;
+    background-color: rgb(255,255,255);
+    color: rgb(10,10,10);
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 40px;
+
+}
+
+input{
+    width: 100%;
+}
+
+ul{
+    margin: 0px;
+    padding: 0;
+    
+}
+li{
+    list-style: square;
+    padding:10px;
+    padding-left: 0px;
+    margin-left: 30px;
+}
+div{
+
+    max-width: 940px;
+    margin-top: 20px;
+    background-color: rgb(255,255,255);
+    margin: 40px;
+    margin-left: 150px;
+
+}
+div > h3{
+    margin: 0px;
+}
+div > ul{
+    color: rgb(10,10,10);
+    margin: 0px;
+}
+
+#nav{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+
+    margin: 0px;
+    margin-right: 80px;
+    padding: 10px;
+    
+    color:rgb(10,10,10);
+    background: transparent;
+    font-size: 20px;
+    list-style: none;
+}
+#nav > ul > li{
+    padding: 10px;
+    margin: 0px;
+    list-style: none;
+}
+
+#status{
+    max-width: 900px;
+
+    padding: 20px;
+    padding-top: 0px;
+    margin: 0px;
+    margin-left: 150px;
+    margin-right: 40px;
+}
+
+p{
+    margin-top: 0px;
+}
+
