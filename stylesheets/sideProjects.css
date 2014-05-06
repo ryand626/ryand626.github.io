@@ -33,3 +33,8 @@
   display: block;
   margin: 0 auto;
 }
+
+/* line 36, ../sass/sideProjects.scss */
+#making-of {
+  background-color: #1e1e1e;
+}
