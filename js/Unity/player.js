@@ -51,5 +51,6 @@ jQuery(function() {
         }
     });
     u.initPlugin(jQuery("#unityPlayer")[0], "Desktop.unity3d");
+    u.initPlugin(jQuery("#unityPlayer2")[0], "Genetics.unity3d");
 });
 
