@@ -8,9 +8,10 @@
 // document.write('<script type="text\/javascript" src="' + unityObjectUrl + '"><\/script>');
 
 // third file
+// Original: 960 by 600
 var config = {
     width: 960, 
-    height: 600,
+    height: 540,
     params: { enableDebugging:"0" }
     
 };
