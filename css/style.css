@@ -1,0 +1,58 @@
+.landpage-image{
+	margin-top: 39px;
+	height: 100%;
+	background-image: url(../media/img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;;
+}
+.spacer{
+	height: 50%;
+}
+
+.custom{
+	/*position: fixed;*/
+	/*margin-top: 39px;*/
+}
+
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+/* Slide 1 */
+#slide-1 .bcg {background-image:url('../media/img/xbee.jpg')}
+
+/* CSS - Slide 2 */
+#slide-2 .bcg {
+    background: none;
+    background-color: #010101;
+    height: auto;
+    /*text-align: center*/
+}
+
+/* CSS - Slide 3 */
+#slide-3 .bcg {background-image:url('../media/img/VR.jpg');
+z-index: 1}
+
+/* Slide 4 */
+.curtainContainer {
+    width: 100%; height: 100%;
+    position: relative;
+}
+.curtainContainer .curtain {
+    width: 300%; height: 1px;
+    background-color: #000000;
+    position: absolute; top: 25%; left: 0;
+    opacity: 0
+}
+.curtainContainer .copy {
+    position: absolute;
+    bottom: 30%; left: 0;
+    width: 100%; text-align: center;
+}
+#slide-4 .bcg {background-image:url('../media/img/bcg_slide-4.jpg')}
+
